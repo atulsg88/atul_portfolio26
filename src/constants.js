@@ -34,14 +34,14 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import webverseLogo from './assets/company_logo/TT_Logo.png';
+import agcLogo from './assets/company_logo/code_alpha.png';
+import newtonschoolLogo from './assets/company_logo/MD4K_Logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import glaLogo from './assets/education_logo/DIT_logo.png';
+import bsaLogo from './assets/education_logo/svpm_logo.png';
+import vpsLogo from './assets/education_logo/RNAT_logo.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -61,28 +61,22 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
@@ -92,7 +86,6 @@ export const SkillsInfo = [
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
     ],
@@ -116,9 +109,9 @@ export const SkillsInfo = [
     {
       id: 0,
       img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
+      role: "Junior Software Developer",
+      company: "Tourist Tribe",
+      date: "Jan 2026 - Feb 2026",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
@@ -136,10 +129,10 @@ export const SkillsInfo = [
     {
       id: 1,
       img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      role: "Mobile Application Developer Intern",
+      company: "CodeAlpha",
+      date: "Jan 2026 - Jan 2026",
+      desc: "Completed a virtual internship focused on app development, gaining hands-on experience in building applications, improving coding skills, and understanding real-world development practices.",
       skills: [
         "ReactJS",
         "Redux",
@@ -153,10 +146,10 @@ export const SkillsInfo = [
     {
       id: 2,
       img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+      role: "PHP Web Developer Intern",
+      company: "MD4KS Analytics Pvt. Ltd.",
+      date: "Jun 2023 - Jul 2023",
+      desc: "I completed a six-week program of industrial training in the area of web development with MD4KS Analytics Pvt. Ltd. (June – July 2023). This training allowed me to gain real-world experience of creating and deploying dynamic web applications using HTML, CSS, JavaScript, PHP and MySQL. The training program enhanced my skills in frontend and backend development, improved my problem solving skills, and provided a platform to apply my theoretical knowledge within the context of real-world projects.",
       skills: [
         "HTML",
         "CSS",
@@ -172,38 +165,29 @@ export const SkillsInfo = [
     {
       id: 0,
       img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      school: "Dr. D. Y. Patil Institute of Technology, Pimpri (DIT)",
+      date: "Sept 2024 - July 2027",
+      grade: "7.31 CGPA",
+      desc: "I have completed my Bachelor's degree (B.E.) in Electronics & Telecommunication Engineering from Dr. D. Y. Patil Institute of Technology, Pimpri (DIT). During my time at DIT, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at Collage has been instrumental in shaping my technical abilities and professional growth.",
+      degree: "B.E. Electronics & Telecommunication Engineering",
     },
     {
       id: 1,
       img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      school: "SVPMs ITE Malegaon(Bk.), Baramati",
+      date: "Jul 2021 - Jul 2024",
+      grade: "83.54%",
+      desc: "I completed my Diploma in Computer Science (B.Sc.) from SVPMs ITE Malegaon(Bk.), Baramati. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at College allowed me to work on projects that applied theoretical concepts to real-world problems.",
       degree: "Bachelor of Science - BSC (Computer Science)",
     },
     {
       id: 2,
       img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      school: "R.N.A.T. Institute and Jr. College Baramati, Baramati",
+      date: "Jun 2020 - Jun 2021",
+      grade: "77%",
+      desc: "I completed my class 10 education from R.N.A.T. Institute and Jr. College Baramati, under the MSBSHSE board, where I studied Science with Technical.",
+      degree: "MSBSHSE, Science with Technical",
     },
   ];
   
