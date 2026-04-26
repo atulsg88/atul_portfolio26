@@ -30,9 +30,3 @@ npm start
 ```bash
 npm run build
 ```
-
-<<<<<<< HEAD
-"# Atul_Portfolio" 
-=======
-"# Atul_Portfolio" 
->>>>>>> 324728902405a6909e6e8f19e4cf59b11ee848e7
