@@ -194,12 +194,12 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "Real Time System For Elephant Detection",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+        "This AI and IoT-powered system prevents human-elephant conflict (HEC) in Chhattisgarh by continuously monitoring elephant movements with sensors and night-vision cameras. When an elephant is detected, the system sends instant alerts to villagers and forest officials through the Mobile App Notification.",
       image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+      tags: ["Java", "App Development", "Firebase", "AIML", "Web Development"],
+      github: "https://github.com/atulsg88/Elephant_Detection_App",
       webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
@@ -214,12 +214,12 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "E-Payment for MSBTE Exam Form",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+        "Developed a web application to digitize the MSBTE exam form process with integrated online fee payment. The system includes modules for Students, Institutes, and MSBTE officials to manage form submissions, approvals, notices, and results. Enhanced efficiency by reducing paperwork and introducing a user-friendly, secure e-payment system.",
       image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
+      tags: ["Java", "API", "SQL Server","HTML", "CSS", "JavaScript"],
+      github: "https://github.com/atulsg88/MSBTE_PROJECT",
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
@@ -244,12 +244,12 @@ export const SkillsInfo = [
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "Travel Tribe",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+        "TravelTribe is a specialized B2B coordination platform designed to bridge the gap between travel agents, cab drivers, and hoteliers. By automating the booking and confirmation workflow, it replaces fragmented communication with a streamlined, multi-user ecosystem that ensures every trip component is confirmed in real-time.",
       image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
+      tags: ["Flutter", "Dart", "Firebase", "Android Studio"],
+      github: "https://github.com/atulsg88/TravelTribe",
       webapp: "https://webversedigital.com/",
     },
     {
