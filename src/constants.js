@@ -200,7 +200,7 @@ export const SkillsInfo = [
       image: githubdetLogo,
       tags: ["Java", "App Development", "Firebase", "AIML", "Web Development"],
       github: "https://github.com/atulsg88/Elephant_Detection_App",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      webapp: "",
     },
     {
       id: 1,
@@ -209,8 +209,8 @@ export const SkillsInfo = [
         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
       image: csprepLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+      github: "",
+      webapp: "",
     },
     {
       id: 2,
@@ -220,7 +220,7 @@ export const SkillsInfo = [
       image: movierecLogo,
       tags: ["Java", "API", "SQL Server","HTML", "CSS", "JavaScript"],
       github: "https://github.com/atulsg88/MSBTE_PROJECT",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      webapp: "",
     },
     {
       id: 3,
@@ -229,8 +229,8 @@ export const SkillsInfo = [
         "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
       image: npmLogo,
       tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      github: "",
+      webapp: "",
     },
     {
       id: 4,
@@ -250,7 +250,7 @@ export const SkillsInfo = [
       image: webverLogo,
       tags: ["Flutter", "Dart", "Firebase", "Android Studio"],
       github: "https://github.com/atulsg88/TravelTribe",
-      webapp: "https://webversedigital.com/",
+      webapp: "",
     },
     {
       id: 6,
@@ -259,8 +259,8 @@ export const SkillsInfo = [
         "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
       image: cmLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+      github: "",
+      webapp: "",
     },
     {
       id: 7,
@@ -269,8 +269,8 @@ export const SkillsInfo = [
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
       image: imagesearchLogo,
       tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
+      github: "",
+      webapp: "",
     },
     {
       id: 8,
@@ -279,7 +279,7 @@ export const SkillsInfo = [
         "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
       image: removebgLogo,
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+      github: "",
+      webapp: "",
     },
   ];  
