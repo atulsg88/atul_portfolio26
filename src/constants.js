@@ -32,6 +32,8 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import phpLogo from './assets/tech_logo/php.png';
+import hostingerLogo from './assets/tech_logo/hostinger.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/TT_Logo.png';
@@ -85,6 +87,7 @@ export const SkillsInfo = [
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'PHP', logo: phpLogo },
     ],
   },
   {
@@ -94,7 +97,7 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Vercel', logo: vercelLogo },
-
+      { name: 'Hostinger', logo: hostingerLogo },
     ],
   },
 ];
