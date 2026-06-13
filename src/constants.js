@@ -63,7 +63,6 @@ export const SkillsInfo = [
       { name: 'CSS', logo: cssLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
@@ -73,7 +72,6 @@ export const SkillsInfo = [
     title: 'Backend',
     skills: [
       { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
@@ -87,7 +85,6 @@ export const SkillsInfo = [
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
   {
@@ -96,190 +93,187 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+
     ],
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Junior Software Developer",
-      company: "Tourist Tribe",
-      date: "Jan 2026 - Feb 2026",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Mobile Application Developer Intern",
-      company: "CodeAlpha",
-      date: "Jan 2026 - Jan 2026",
-      desc: "Completed a virtual internship focused on app development, gaining hands-on experience in building applications, improving coding skills, and understanding real-world development practices.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "PHP Web Developer Intern",
-      company: "MD4KS Analytics Pvt. Ltd.",
-      date: "Jun 2023 - Jul 2023",
-      desc: "I completed a six-week program of industrial training in the area of web development with MD4KS Analytics Pvt. Ltd. (June – July 2023). This training allowed me to gain real-world experience of creating and deploying dynamic web applications using HTML, CSS, JavaScript, PHP and MySQL. The training program enhanced my skills in frontend and backend development, improved my problem solving skills, and provided a platform to apply my theoretical knowledge within the context of real-world projects.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
-  
-  export const education = [
-    {
-      id: 0,
-      img: glaLogo,
-      school: "Dr. D. Y. Patil Institute of Technology, Pimpri (DIT)",
-      date: "Sept 2024 - July 2027",
-      grade: "7.31 CGPA",
-      desc: "I have completed my Bachelor's degree (B.E.) in Electronics & Telecommunication Engineering from Dr. D. Y. Patil Institute of Technology, Pimpri (DIT). During my time at DIT, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at Collage has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "B.E. Electronics & Telecommunication Engineering",
-    },
-    {
-      id: 1,
-      img: bsaLogo,
-      school: "SVPMs ITE Malegaon(Bk.), Baramati",
-      date: "Jul 2021 - Jul 2024",
-      grade: "83.54%",
-      desc: "I completed my Diploma in Computer Science (B.Sc.) from SVPMs ITE Malegaon(Bk.), Baramati. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
-    {
-      id: 2,
-      img: vpsLogo,
-      school: "R.N.A.T. Institute and Jr. College Baramati, Baramati",
-      date: "Jun 2020 - Jun 2021",
-      grade: "77%",
-      desc: "I completed my class 10 education from R.N.A.T. Institute and Jr. College Baramati, under the MSBSHSE board, where I studied Science with Technical.",
-      degree: "MSBSHSE, Science with Technical",
-    },
-  ];
-  
-  export const projects = [
-    {
-      id: 0,
-      title: "Real Time System For Elephant Detection",
-      description:
-        "This AI and IoT-powered system prevents human-elephant conflict (HEC) in Chhattisgarh by continuously monitoring elephant movements with sensors and night-vision cameras. When an elephant is detected, the system sends instant alerts to villagers and forest officials through the Mobile App Notification.",
-      image: githubdetLogo,
-      tags: ["Java", "App Development", "Firebase", "AIML", "Web Development"],
-      github: "https://github.com/atulsg88/Elephant_Detection_App",
-      webapp: "",
-    },
-    {
-      id: 1,
-      title: "CS Prep",
-      description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "",
-      webapp: "",
-    },
-    {
-      id: 2,
-      title: "E-Payment for MSBTE Exam Form",
-      description:
-        "Developed a web application to digitize the MSBTE exam form process with integrated online fee payment. The system includes modules for Students, Institutes, and MSBTE officials to manage form submissions, approvals, notices, and results. Enhanced efficiency by reducing paperwork and introducing a user-friendly, secure e-payment system.",
-      image: movierecLogo,
-      tags: ["Java", "API", "SQL Server","HTML", "CSS", "JavaScript"],
-      github: "https://github.com/atulsg88/MSBTE_PROJECT",
-      webapp: "",
-    },
-    {
-      id: 3,
-      title: "Email Validator NPM Package",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "",
-      webapp: "",
-    },
-    {
-      id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
-      title: "Travel Tribe",
-      description:
-        "TravelTribe is a specialized B2B coordination platform designed to bridge the gap between travel agents, cab drivers, and hoteliers. By automating the booking and confirmation workflow, it replaces fragmented communication with a streamlined, multi-user ecosystem that ensures every trip component is confirmed in real-time.",
-      image: webverLogo,
-      tags: ["Flutter", "Dart", "Firebase", "Android Studio"],
-      github: "https://github.com/atulsg88/TravelTribe",
-      webapp: "",
-    },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "",
-      webapp: "",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "",
-      webapp: "",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "",
-      webapp: "",
-    },
-  ];  
+export const experiences = [
+  {
+    id: 0,
+    img: webverseLogo,
+    role: "Junior Software Developer",
+    company: "Tourist Tribe",
+    date: "Jan 2026 - Feb 2026",
+    desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "TypeScript",
+      "Node JS",
+      "Tailwind CSS",
+      "MongoDb",
+      "Redux",
+      " Next Js",
+    ],
+  },
+  {
+    id: 1,
+    img: agcLogo,
+    role: "Mobile Application Developer Intern",
+    company: "CodeAlpha",
+    date: "Jan 2026 - Jan 2026",
+    desc: "Completed a virtual internship focused on app development, gaining hands-on experience in building applications, improving coding skills, and understanding real-world development practices.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "JavaScript",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "SQL",
+    ],
+  },
+  {
+    id: 2,
+    img: newtonschoolLogo,
+    role: "PHP Web Developer Intern",
+    company: "MD4KS Analytics Pvt. Ltd.",
+    date: "Jun 2023 - Jul 2023",
+    desc: "I completed a six-week program of industrial training in the area of web development with MD4KS Analytics Pvt. Ltd. (June – July 2023). This training allowed me to gain real-world experience of creating and deploying dynamic web applications using HTML, CSS, JavaScript, PHP and MySQL. The training program enhanced my skills in frontend and backend development, improved my problem solving skills, and provided a platform to apply my theoretical knowledge within the context of real-world projects.",
+    skills: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Bootstrap",
+      "Figma",
+      "Material UI",
+    ],
+  },
+];
+
+export const education = [
+  {
+    id: 0,
+    img: glaLogo,
+    school: "Dr. D. Y. Patil Institute of Technology, Pimpri (DIT)",
+    date: "Sept 2024 - July 2027",
+    grade: "7.31 CGPA",
+    desc: "I have completed my Bachelor's degree (B.E.) in Electronics & Telecommunication Engineering from Dr. D. Y. Patil Institute of Technology, Pimpri (DIT). During my time at DIT, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at Collage has been instrumental in shaping my technical abilities and professional growth.",
+    degree: "B.E. Electronics & Telecommunication Engineering",
+  },
+  {
+    id: 1,
+    img: bsaLogo,
+    school: "SVPMs ITE Malegaon(Bk.), Baramati",
+    date: "Jul 2021 - Jul 2024",
+    grade: "83.54%",
+    desc: "I completed my Diploma in Computer Science (B.Sc.) from SVPMs ITE Malegaon(Bk.), Baramati. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+    degree: "Bachelor of Science - BSC (Computer Science)",
+  },
+  {
+    id: 2,
+    img: vpsLogo,
+    school: "R.N.A.T. Institute and Jr. College Baramati, Baramati",
+    date: "Jun 2020 - Jun 2021",
+    grade: "77%",
+    desc: "I completed my class 10 education from R.N.A.T. Institute and Jr. College Baramati, under the MSBSHSE board, where I studied Science with Technical.",
+    degree: "MSBSHSE, Science with Technical",
+  },
+];
+
+export const projects = [
+  {
+    id: 0,
+    title: "Real Time System For Elephant Detection",
+    description:
+      "This AI and IoT-powered system prevents human-elephant conflict (HEC) in Chhattisgarh by continuously monitoring elephant movements with sensors and night-vision cameras. When an elephant is detected, the system sends instant alerts to villagers and forest officials through the Mobile App Notification.",
+    image: githubdetLogo,
+    tags: ["Java", "App Development", "Firebase", "AIML", "Web Development"],
+    github: "https://github.com/atulsg88/Elephant_Detection_App",
+    webapp: "",
+  },
+  {
+    id: 1,
+    title: "CS Prep",
+    description:
+      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+    image: csprepLogo,
+    tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 2,
+    title: "E-Payment for MSBTE Exam Form",
+    description:
+      "Developed a web application to digitize the MSBTE exam form process with integrated online fee payment. The system includes modules for Students, Institutes, and MSBTE officials to manage form submissions, approvals, notices, and results. Enhanced efficiency by reducing paperwork and introducing a user-friendly, secure e-payment system.",
+    image: movierecLogo,
+    tags: ["Java", "API", "SQL Server", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/atulsg88/MSBTE_PROJECT",
+    webapp: "",
+  },
+  {
+    id: 3,
+    title: "Email Validator NPM Package",
+    description:
+      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+    image: npmLogo,
+    tags: ["React JS", "Node.js", "NPM", "Validation"],
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 4,
+    title: "Task Reminder Chrome Extension Tool",
+    description:
+      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+    image: taskremLogo,
+    tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+    github: "https://github.com/codingmastr/Task-Reminder-Tool",
+    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+  },
+  {
+    id: 5,
+    title: "Travel Tribe",
+    description:
+      "TravelTribe is a specialized B2B coordination platform designed to bridge the gap between travel agents, cab drivers, and hoteliers. By automating the booking and confirmation workflow, it replaces fragmented communication with a streamlined, multi-user ecosystem that ensures every trip component is confirmed in real-time.",
+    image: webverLogo,
+    tags: ["Flutter", "Dart", "Firebase", "Android Studio"],
+    github: "https://github.com/atulsg88/TravelTribe",
+    webapp: "",
+  },
+  {
+    id: 6,
+    title: "Coding Master",
+    description:
+      "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
+    image: cmLogo,
+    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 7,
+    title: "Image Search App",
+    description:
+      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+    image: imagesearchLogo,
+    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 8,
+    title: "Image Background Remover",
+    description:
+      "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+    image: removebgLogo,
+    tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
+    github: "",
+    webapp: "",
+  },
+];  
