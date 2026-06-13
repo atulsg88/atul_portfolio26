@@ -32,8 +32,8 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
-import phpLogo from './assets/tech_logo/php.png';
-import hostingerLogo from './assets/tech_logo/hostinger.png';
+import phpLogo from './assets/tech_logo/php.svg';
+import hostingerLogo from './assets/tech_logo/hostinger.svg';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/TT_Logo.png';
