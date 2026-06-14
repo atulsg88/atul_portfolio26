@@ -221,23 +221,23 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Email Validator NPM Package",
+    title: "Elephant Detection Web Dashboard",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+      "A real-time web dashboard built with React and Vite that serves as the monitoring companion for the Elephant Detection system. It visualizes live detection alerts, elephant movement data, sensor health status, and historical detection logs — enabling forest officials and villagers to track human-elephant conflict zones from any browser.",
     image: npmLogo,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
-    github: "",
-    webapp: "",
+    tags: ["React JS", "Vite", "JavaScript", "CSS", "Firebase", "Real-time"],
+    github: "https://github.com/atulsg88/Elephant_Detection_Web",
+    webapp: "https://elephant-detection-web.vercel.app/",
   },
   {
     id: 4,
-    title: "Task Reminder Chrome Extension Tool",
+    title: "Task Tracker",
     description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+      "A clean and simple Task Management application built with Flutter. Features a two-screen architecture with a main dashboard to view tasks and a separate screen for task entry. Every task includes a title and description, with the ability to add, mark as completed, and delete tasks with local data persistence.",
     image: taskremLogo,
-    tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+    tags: ["Flutter", "Dart", "Mobile App", "State Management"],
+    github: "https://github.com/atulsg88/task-tracker",
+    webapp: "",
   },
   {
     id: 5,
