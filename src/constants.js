@@ -47,7 +47,7 @@ import vpsLogo from './assets/education_logo/RNAT_logo.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
+import factoryBoxLogo from './assets/work_logo/factory_box.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
 import npmLogo from './assets/work_logo/npm.png';
@@ -201,13 +201,13 @@ export const projects = [
   },
   {
     id: 1,
-    title: "CS Prep",
+    title: "Factory Box Tracker",
     description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    image: csprepLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    github: "",
-    webapp: "",
+      "An automated, real-time computer vision and IoT solution for efficient shipment verification in logistics and warehouse environments. Uses YOLO object detection with custom kinematic tracking and barcode/QR scanning on conveyor belts to prevent double-counting, flag discrepancies, and sync data to a live cloud dashboard.",
+    image: factoryBoxLogo,
+    tags: ["Next.js", "Python", "YOLO", "Firebase", "Computer Vision", "IoT"],
+    github: "https://github.com/atulsg88/Factory_Box_Tracker",
+    webapp: "https://factory-box-tracker.vercel.app/",
   },
   {
     id: 2,
