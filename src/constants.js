@@ -34,6 +34,12 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 import phpLogo from './assets/tech_logo/php.png';
 import hostingerLogo from './assets/tech_logo/hostinger.png';
+import flutterLogo from './assets/tech_logo/flutter.png';
+import dartLogo from './assets/tech_logo/dart.png';
+import androidLogo from './assets/tech_logo/android.png';
+import webdevLogo from './assets/tech_logo/webdev.png';
+import softwaredevLogo from './assets/tech_logo/softwaredev.png';
+import androidstudioLogo from './assets/tech_logo/androidstudio.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/TT_Logo.png';
@@ -53,8 +59,6 @@ import taskremLogo from './assets/work_logo/task_tracker_new.png';
 import npmLogo from './assets/work_logo/elephant_dashboard.png';
 import travelTribeLogo from './assets/work_logo/travel_tribe_new.png';
 import boxCounterLogo from './assets/work_logo/box_counter.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
 
 
 export const SkillsInfo = [
@@ -88,6 +92,8 @@ export const SkillsInfo = [
       { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'PHP', logo: phpLogo },
+      { name: 'Flutter', logo: flutterLogo },
+      { name: 'Dart', logo: dartLogo },
     ],
   },
   {
@@ -98,6 +104,15 @@ export const SkillsInfo = [
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Hostinger', logo: hostingerLogo },
+      { name: 'Android Studio', logo: androidstudioLogo },
+    ],
+  },
+  {
+    title: 'Services',
+    skills: [
+      { name: 'Android Development', logo: androidLogo },
+      { name: 'Web Development', logo: webdevLogo },
+      { name: 'Software Development', logo: softwaredevLogo },
     ],
   },
 ];
@@ -259,24 +274,5 @@ export const projects = [
     github: "https://github.com/atulsg88/Box_Counter_App",
     webapp: "https://github.com/atulsg88/Box_Counter_App/releases/tag/v.1.0",
   },
-  {
-    id: 7,
-    title: "Image Search App",
-    description:
-      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    image: imagesearchLogo,
-    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    github: "",
-    webapp: "",
-  },
-  {
-    id: 8,
-    title: "Image Background Remover",
-    description:
-      "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-    image: removebgLogo,
-    tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    github: "",
-    webapp: "",
-  },
+
 ];  

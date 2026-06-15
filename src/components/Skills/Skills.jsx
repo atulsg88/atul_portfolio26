@@ -22,8 +22,8 @@ const Skills = () => (
       {SkillsInfo.map((category) => (
         <div
           key={category.title}
-          className="bg-gray-900 backdrop-blur-md px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border border-white 
-          shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]"
+          className={`bg-gray-900 backdrop-blur-md px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full ${category.title === 'Services' ? 'sm:w-full' : 'sm:w-[48%]'} rounded-2xl border border-white 
+          shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]`}
         >
           <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-4 text-center">
             {category.title}
@@ -39,7 +39,7 @@ const Skills = () => (
             transitionSpeed={1000}
             gyroscope={true}
           >
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 w-full">
+            <div className={`grid grid-cols-2 ${category.title === 'Services' ? 'sm:grid-cols-4' : 'sm:grid-cols-3'} gap-3 w-full`}>
               {category.skills.map((skill) => (
                 <div
                   key={skill.name}
