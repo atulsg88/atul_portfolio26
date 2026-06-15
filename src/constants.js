@@ -197,7 +197,7 @@ export const projects = [
     image: githubdetLogo,
     tags: ["Java", "App Development", "Firebase", "AIML", "Web Development"],
     github: "https://github.com/atulsg88/Elephant_Detection_App",
-    webapp: "",
+    webapp: "https://github.com/atulsg88/Elephant_Detection_App/releases/tag/v.1.0",
   },
   {
     id: 1,
@@ -237,7 +237,7 @@ export const projects = [
     image: taskremLogo,
     tags: ["Flutter", "Dart", "Mobile App", "State Management"],
     github: "https://github.com/atulsg88/task-tracker",
-    webapp: "",
+    webapp: "https://github.com/atulsg88/task-tracker/releases",
   },
   {
     id: 5,
@@ -247,7 +247,7 @@ export const projects = [
     image: travelTribeLogo,
     tags: ["Flutter", "Dart", "Firebase", "Android Studio"],
     github: "https://github.com/atulsg88/TravelTribe",
-    webapp: "",
+    webapp: "https://github.com/atulsg88/TravelTribe/releases",
   },
   {
     id: 6,
@@ -257,7 +257,7 @@ export const projects = [
     image: boxCounterLogo,
     tags: ["Flutter", "Dart", "Camera", "Mobile App", "Computer Vision"],
     github: "https://github.com/atulsg88/Box_Counter_App",
-    webapp: "",
+    webapp: "https://github.com/atulsg88/Box_Counter_App/releases/tag/v.1.0",
   },
   {
     id: 7,
