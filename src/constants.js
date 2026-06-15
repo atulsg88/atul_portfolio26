@@ -49,10 +49,10 @@ import vpsLogo from './assets/education_logo/RNAT_logo.png';
 import githubdetLogo from './assets/work_logo/elephant_app.png';
 import factoryBoxLogo from './assets/work_logo/box_tracker.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
+import taskremLogo from './assets/work_logo/task_tracker_new.png';
 import npmLogo from './assets/work_logo/elephant_dashboard.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
+import travelTribeLogo from './assets/work_logo/travel_tribe_new.png';
+import boxCounterLogo from './assets/work_logo/box_counter.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
@@ -244,19 +244,19 @@ export const projects = [
     title: "Travel Tribe",
     description:
       "TravelTribe is a specialized B2B coordination platform designed to bridge the gap between travel agents, cab drivers, and hoteliers. By automating the booking and confirmation workflow, it replaces fragmented communication with a streamlined, multi-user ecosystem that ensures every trip component is confirmed in real-time.",
-    image: webverLogo,
+    image: travelTribeLogo,
     tags: ["Flutter", "Dart", "Firebase", "Android Studio"],
     github: "https://github.com/atulsg88/TravelTribe",
     webapp: "",
   },
   {
     id: 6,
-    title: "Coding Master",
+    title: "Box Counter App",
     description:
-      "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    image: cmLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    github: "",
+      "A smart mobile application for counting and tracking boxes using the device camera. Features real-time box detection, counter display, and scan functionality for efficient inventory management in warehouses and logistics.",
+    image: boxCounterLogo,
+    tags: ["Flutter", "Dart", "Camera", "Mobile App", "Computer Vision"],
+    github: "https://github.com/atulsg88/Box_Counter_App",
     webapp: "",
   },
   {
