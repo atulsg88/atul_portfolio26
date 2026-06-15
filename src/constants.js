@@ -46,11 +46,11 @@ import bsaLogo from './assets/education_logo/svpm_logo.png';
 import vpsLogo from './assets/education_logo/RNAT_logo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import factoryBoxLogo from './assets/work_logo/factory_box.png';
+import githubdetLogo from './assets/work_logo/elephant_app.png';
+import factoryBoxLogo from './assets/work_logo/box_tracker.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
+import npmLogo from './assets/work_logo/elephant_dashboard.png';
 import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
